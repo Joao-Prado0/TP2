@@ -45,7 +45,7 @@ public class Mesa {
                 && estados[vizinhoDireita(id)] != Estado.COMENDO) {
             
             estados[id] = Estado.COMENDO;
-            System.out.println("Filósofo " + id + " pegou os garfos e começou a COMER. 🍜");
+            System.out.println("Filósofo " + id + " pegou os garfos e começou a COMER.");
             semaforosFilosofos[id].release(); // Libera o filósofo para rodar
         }
     }
