@@ -35,7 +35,7 @@ public class Caldeirao {
             // Garante acesso exclusivo ao caldeirao
             mutex.acquire();
 
-            // Se o caldeirão estiver vazio o cozinheiro é acordado e
+            // Se o caldeirão estiver vazio o cozinheiro é acordado e preenche o caldeirão
             while (porcoes == 0) {
                 System.out.println("[" + nomeSelvagem + "] Viu que o caldeirão está VAZIO! Acordando o cozinheiro...");
 

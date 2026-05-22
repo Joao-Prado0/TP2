@@ -51,7 +51,7 @@ public class DatabaseLE {
         }
     }
 
-    // --- MÉTODOS PARA OS ESCRITORES ---
+    // Métodos para os Escritores
 
     public void iniciarEscrita(String nomeEscritor, int posicao, int novoValor) {
         try {

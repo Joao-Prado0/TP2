@@ -6,8 +6,6 @@ public class Cozinheiro extends Thread {
     
     public Cozinheiro(Caldeirao caldeirao) {
         this.caldeirao = caldeirao;
-        // Tornar a thread um Daemon significa que ela não vai impedir o Java de fechar 
-        // o programa quando todos os selvagens terminarem de comer.
         this.setDaemon(true); 
     }
 

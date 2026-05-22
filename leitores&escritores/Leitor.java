@@ -19,13 +19,13 @@ public class Leitor extends Thread{
                 // Pede permissão para ler
                 db.iniciarLeitura(nome);
                 
-                // Simula o tempo que ele gasta lendo o livro/dado (entre 0.5 e 1.5 segundos)
+                // Simula o tempo que ele gasta lendo o livro/dado
                 Thread.sleep(random.nextInt(1000) + 500);
 
                 // Avisa que terminou de ler e sai
                 db.encerrarLeitura(nome);
 
-                // Espera um pouco antes de tentar ler novamente (simula "pensando")
+                // Espera um pouco antes de tentar ler novamente 
                 Thread.sleep(random.nextInt(1500) + 500);
             } catch (InterruptedException e) {
                 System.out.println("[" + nome + "] Foi interrompido.");

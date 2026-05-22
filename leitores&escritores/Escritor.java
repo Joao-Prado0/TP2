@@ -22,7 +22,7 @@ public class Escritor extends Thread {
                 // Pede acesso exclusivo. Se tiver leitor na sala, ele dorme aqui.
                 db.iniciarEscrita(nome, posicaoAleatoria, novoValor);
                 
-                // Simula o tempo gasto escrevendo/alterando o arquivo (entre 1 e 2 segundos)
+                // Simula o tempo gasto escrevendo/alterando o arquivo
                 Thread.sleep(random.nextInt(1000) + 1000);
                 
                 // Termina a modificação e libera o banco de dados
