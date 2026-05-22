@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import selvagens.SelvagensRunner;
+import barbeiro.BarbeiroRunner;
 
 public class Menu {
 
@@ -35,7 +36,7 @@ public class Menu {
 
     private void processarOpcao(int opcao) {
         switch (opcao) {
-            case 1 -> System.out.println("\nExecutando: Barbeiro Dorminhoco...\n");
+            case 1 -> BarbeiroRunner.executar();
             case 2 -> LeitoresEscritoresRunner.executar();
             case 3 -> System.out.println("\nExecutando: Problema dos Fumantes...\n");
             case 4 -> System.out.println("\nExecutando: Jantar dos Filósofos...\n");
