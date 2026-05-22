@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 import selvagens.SelvagensRunner;
 import barbeiro.BarbeiroRunner;
+import filosofos.FilosofosRunner;
 
 public class Menu {
 
@@ -39,7 +40,7 @@ public class Menu {
             case 1 -> BarbeiroRunner.executar();
             case 2 -> LeitoresEscritoresRunner.executar();
             case 3 -> System.out.println("\nExecutando: Problema dos Fumantes...\n");
-            case 4 -> System.out.println("\nExecutando: Jantar dos Filósofos...\n");
+            case 4 -> FilosofosRunner.executar();
             case 5 -> SelvagensRunner.executar();
             case 6 -> System.out.println("\nExecutando: Problema dos Três Robôs...\n");
             case 0 -> System.out.println("Encerrando programa.");
