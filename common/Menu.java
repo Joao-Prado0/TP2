@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import selvagens.SelvagensRunner;
+
 public class Menu {
 
     private final Scanner scanner;
@@ -37,7 +39,7 @@ public class Menu {
             case 2 -> LeitoresEscritoresRunner.executar();
             case 3 -> System.out.println("\nExecutando: Problema dos Fumantes...\n");
             case 4 -> System.out.println("\nExecutando: Jantar dos Filósofos...\n");
-            case 5 -> System.out.println("\nExecutando: Jantar dos Selvagens...\n");
+            case 5 -> SelvagensRunner.executar();
             case 6 -> System.out.println("\nExecutando: Problema dos Três Robôs...\n");
             case 0 -> System.out.println("Encerrando programa.");
             default -> System.out.println("Opção inválida!");
