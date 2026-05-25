@@ -12,6 +12,7 @@ public class TresRobosRunner {
     public static void executar() {
         System.out.println("====================================================");
         System.out.println("INICIANDO SIMULAÇÃO: PROBLEMA DOS TRÊS ROBÔS");
+        System.out.println(" Para encerrar, aperte Ctrl+C ou clique em 'Stop'");
         System.out.println("====================================================\n");
 
         // Caso o usuário rode mais de uma vez pelo menu, garantimos os valores iniciais
